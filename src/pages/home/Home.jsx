@@ -1,12 +1,14 @@
 import Logo from '../../components/logo/Logo'
 import Slogan from '../../components/slogan/Slogan'
 
+import { HomeStyled } from './Home.styled'
+
 function Home() {
   return (
-    <div>
+    <HomeStyled>
       <Logo />
       <Slogan />
-    </div>
+    </HomeStyled>
   )
 }
 
