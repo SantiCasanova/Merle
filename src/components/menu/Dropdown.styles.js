@@ -1,3 +1,11 @@
+import styled from 'styled-components'
+
+export const ItemStyled = styled.a`
+  color: white;
+  text-decoration: none;
+  font-family: 'balooPaaji', sans-serif;
+`
+
 export const dropdownStyles = {
   bmBurgerButton: {
     position: 'relative',
@@ -22,6 +30,8 @@ export const dropdownStyles = {
   },
   bmMenuWrap: {
     position: 'fixed',
+    top: '0px',
+    left: '0px',
     height: '100%',
     width: '100%'
   },
