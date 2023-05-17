@@ -6,4 +6,5 @@ export const NavbarContainerStyled = styled.div`
   align-items: start;
   width: 100%;
   height: 3rem;
+  margin-bottom: 3rem;
 `

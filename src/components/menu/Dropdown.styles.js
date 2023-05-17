@@ -9,15 +9,15 @@ export const ItemStyled = styled.a`
 export const dropdownStyles = {
   bmBurgerButton: {
     position: 'relative',
-    width: '36px',
-    height: '36px',
-    right: '10px',
-    top: '10px'
+    width: '28px',
+    height: '20px',
+    right: '25px',
+    top: '25px'
   },
   bmBurgerBars: {
     background: 'white',
     borderRadius: '6px',
-    height: '15%'
+    height: '2px'
   },
   bmBurgerBarsHover: {
     background: '#a90000'
