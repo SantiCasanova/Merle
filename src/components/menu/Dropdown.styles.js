@@ -11,11 +11,12 @@ export const dropdownStyles = {
     position: 'relative',
     width: '36px',
     height: '36px',
-    right: '5px',
-    top: '5px'
+    right: '10px',
+    top: '10px'
   },
   bmBurgerBars: {
-    background: 'rgb(48, 46, 48)',
+    background: 'white',
+    borderRadius: '6px',
     height: '15%'
   },
   bmBurgerBarsHover: {
@@ -44,8 +45,10 @@ export const dropdownStyles = {
     fill: '#373a47'
   },
   bmItemList: {
-    color: '#b8b7ad',
-    padding: '0.8em'
+    padding: '0.8em',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '25px'
   },
   bmItem: {
     display: 'inline-block'

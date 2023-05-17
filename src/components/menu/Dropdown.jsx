@@ -5,7 +5,16 @@ function Dropdown() {
   return (
     <Menu right styles={dropdownStyles}>
       <ItemStyled id='home' className='menu-item' href='/'>
-        Home
+        OPTION 1
+      </ItemStyled>
+      <ItemStyled id='home' className='menu-item' href='/'>
+        OPTION 2
+      </ItemStyled>
+      <ItemStyled id='home' className='menu-item' href='/'>
+        OPTION 3
+      </ItemStyled>
+      <ItemStyled id='home' className='menu-item' href='/'>
+        OPTION 4
       </ItemStyled>
     </Menu>
   )
