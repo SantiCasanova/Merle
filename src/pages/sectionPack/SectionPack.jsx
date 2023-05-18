@@ -1,9 +1,11 @@
 import { SectionPackStyled } from './SectionPack.styled'
+import { Packs } from '../../components/packs/Packs'
 
 function SectionPack() {
   return (
     <SectionPackStyled>
-      <img src='./TEST.svg' alt='tested' />
+      PACKS ↓
+      <Packs />
     </SectionPackStyled>
   )
 }
