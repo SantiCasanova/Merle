@@ -1,5 +1,5 @@
 import { SectionPackStyled } from './SectionPack.styled'
-import { Packs } from '../../components/packs/Packs'
+import Packs from '../../components/packs/Packs'
 
 function SectionPack() {
   return (

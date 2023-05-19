@@ -1,3 +1,5 @@
 import styled from 'styled-components'
 
-export const SectionPackStyled = styled.div``
+export const SectionPackStyled = styled.div`
+  width: 100%;
+`

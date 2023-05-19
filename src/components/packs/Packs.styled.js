@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
-export const PacksContainerStyled = styled.div``
-
-export const FirstPack = styled.img``
-
-export const SecondPack = styled.img``
-
-export const ThirdPack = styled.img``
+export const PacksContainerStyled = styled.div`
+  position: relative;
+  width: 100%;
+  height: fit-content;
+`

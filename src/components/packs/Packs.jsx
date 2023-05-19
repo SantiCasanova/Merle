@@ -1,16 +1,14 @@
-import {
-  PacksContainerStyled,
-  FirstPack,
-  SecondPack,
-  ThirdPack
-} from './Packs.styled'
+import { PacksContainerStyled } from './Packs.styled'
+import FirstPack from './firstPack/firstPack'
+import SecondPack from './secondPack/SecondPack'
+import ThirdPack from './thirdPack/ThirdPack'
 
 function Packs() {
   return (
     <PacksContainerStyled>
-      <FirstPack></FirstPack>
-      <SecondPack></SecondPack>
-      <ThirdPack></ThirdPack>
+      <FirstPack />
+      <SecondPack />
+      <ThirdPack />
     </PacksContainerStyled>
   )
 }
