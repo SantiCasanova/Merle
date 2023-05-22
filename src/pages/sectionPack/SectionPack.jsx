@@ -1,10 +1,15 @@
-import { SectionPackStyled } from './SectionPack.styled'
+import {
+  SectionPackStyled,
+  TitleStyled,
+  ArrowStyled
+} from './SectionPack.styled'
 import Packs from '../../components/packs/Packs'
 
 function SectionPack() {
   return (
     <SectionPackStyled>
-      PACKS ↓
+      <TitleStyled>PACKS</TitleStyled>
+      <ArrowStyled>↓</ArrowStyled>
       <Packs />
     </SectionPackStyled>
   )

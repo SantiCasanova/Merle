@@ -8,7 +8,7 @@ export const ItemStyled = styled.a`
 
 export const dropdownStyles = {
   bmBurgerButton: {
-    position: 'relative',
+    position: 'fixed',
     width: '28px',
     height: '20px',
     right: '25px',
@@ -30,7 +30,6 @@ export const dropdownStyles = {
     background: '#bdc3c7'
   },
   bmMenuWrap: {
-    position: 'fixed',
     top: '0px',
     left: '0px',
     height: '100%',
