@@ -1,15 +1,11 @@
-import {
-  SectionPackStyled,
-  TitleStyled,
-  ArrowStyled
-} from './SectionPack.styled'
+import { SectionPackStyled } from './SectionPack.styled'
 import Packs from '../../components/packs/Packs'
+import Title from '../../components/title/Title'
 
 function SectionPack() {
   return (
     <SectionPackStyled>
-      <TitleStyled>PACKS</TitleStyled>
-      <ArrowStyled>↓</ArrowStyled>
+      <Title text={'PACKS'} />
       <Packs />
     </SectionPackStyled>
   )
