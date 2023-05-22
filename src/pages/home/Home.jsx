@@ -8,7 +8,7 @@ function Home() {
     <HomeStyled>
       <Navbar />
       <Logo />
-      <Slogan />
+      <Slogan text={'Creatividad que se sirve en cada taza'} />
     </HomeStyled>
   )
 }

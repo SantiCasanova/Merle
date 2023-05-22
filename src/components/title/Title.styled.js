@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const TitleContainerStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
 export const TitleStyled = styled.span`
   font-family: 'Baloo Paaji';
   font-size: 20px;
