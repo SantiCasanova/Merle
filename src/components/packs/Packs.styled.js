@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const PacksContainerStyled = styled.div`
   position: relative;
-  height: fit-content;
   width: 100%;
+  height: 40rem;
   margin-top: 2rem;
 `
