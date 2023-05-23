@@ -32,4 +32,12 @@ export const ButtonStyled = styled.button`
   background: #f14b06;
   width: 5rem;
   height: 1.563rem;
+
+  &:active {
+    border: 0.5px solid orange;
+  }
+
+  &:hover {
+    background-color: #c73e05ff;
+  }
 `
