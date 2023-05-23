@@ -13,4 +13,10 @@ export const SloganStyled = styled.span`
   letter-spacing: -0.02em;
   color: #ffffff;
   padding-bottom: 2rem;
+
+  @media (min-width: 768px) {
+    font-size: 21px;
+    width: auto;
+    max-width: 35rem;
+  }
 `

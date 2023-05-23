@@ -14,6 +14,10 @@ export const TitleStyled = styled.span`
   color: #97430a;
   text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff,
     0.5px 0.5px 0 #fff;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
 `
 
 export const ArrowStyled = styled.span`
@@ -24,4 +28,8 @@ export const ArrowStyled = styled.span`
   color: #97430a;
   text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff,
     0.5px 0.5px 0 #fff;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
 `
