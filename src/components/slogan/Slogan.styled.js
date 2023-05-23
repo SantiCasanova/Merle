@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const SloganStyled = styled.span`
   width: 16.375rem;
+  max-width: 18rem;
   height: auto;
   font-family: 'balooPaaji', sans-serif;
   font-style: normal;

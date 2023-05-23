@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ContactContainerStyled = styled.div`
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +16,6 @@ export const TextStyled = styled.span`
   line-height: 100%;
   text-align: center;
   letter-spacing: -0.02em;
-  margin-bottom: 1rem;
 `
 
 export const ButtonStyled = styled.button`
