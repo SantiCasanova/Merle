@@ -12,4 +12,5 @@ export const SloganStyled = styled.span`
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
+  padding-bottom: 2rem;
 `

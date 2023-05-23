@@ -5,5 +5,5 @@ export const HomeStyled = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 21rem;
 `

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const TitleContainerStyled = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 3rem 0 2rem 0;
 `
 
 export const TitleStyled = styled.span`
