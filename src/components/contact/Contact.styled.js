@@ -7,6 +7,10 @@ export const ContactContainerStyled = styled.div`
   justify-content: center;
   gap: 1rem;
   height: 8rem;
+
+  @media (min-width: 768px) {
+    gap: 1.5rem;
+  }
 `
 
 export const TextStyled = styled.span`
@@ -18,6 +22,10 @@ export const TextStyled = styled.span`
   line-height: 100%;
   text-align: center;
   letter-spacing: -0.02em;
+
+  @media (min-width: 768px) {
+    font-size: 21px;
+  }
 `
 
 export const ButtonStyled = styled.button`
@@ -33,6 +41,11 @@ export const ButtonStyled = styled.button`
   width: 5rem;
   height: 1.563rem;
   cursor: pointer;
+
+  @media (min-width: 768px) {
+    width: 6rem;
+    height: 2rem;
+  }
 
   &:active {
     border: 0.5px solid orange;
