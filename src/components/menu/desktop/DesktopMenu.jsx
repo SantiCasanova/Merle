@@ -17,14 +17,18 @@ function DesktopMenu() {
       <UlStyled>
         <LiStyled>
           <AStyled href='#home' onClick={handleLinkClick}>
-            Option 1
+            Home
           </AStyled>
         </LiStyled>
         <LiStyled>
-          <AStyled>Option 2</AStyled>
+          <AStyled href='#packs' onClick={handleLinkClick}>
+            Packs
+          </AStyled>
         </LiStyled>
         <LiStyled>
-          <AStyled>Option 3</AStyled>
+          <AStyled href='#services' onClick={handleLinkClick}>
+            Services
+          </AStyled>
         </LiStyled>
       </UlStyled>
     </DesktopMenuContainerStyled>

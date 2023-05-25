@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const DesktopMenuContainerStyled = styled.nav`
-  background-color: hsla(180, 0%, 0%, 0.5);
   color: white;
   font-family: 'balooPaaji', sans-serif;
   width: 100%;
+  height: 64px;
   position: fixed;
   z-index: 3;
 `

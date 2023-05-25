@@ -35,3 +35,8 @@ export const DescriptionStyled = styled.span`
 `
 
 export const PriceStyled = styled.span``
+
+export const BackgroundStyled = styled.img`
+  width: 100%;
+  height: 100%;
+`

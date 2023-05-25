@@ -2,19 +2,27 @@ import { slide as Menu } from 'react-burger-menu'
 import { ItemStyled, dropdownStyled } from './Dropdown.styled'
 
 function Dropdown() {
+  const handleLinkClick = event => {
+    event.preventDefault()
+    const targetId = event.target.getAttribute('href')
+    const targetElement = document.querySelector(targetId)
+    targetElement.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <Menu right styles={dropdownStyled}>
-      <ItemStyled id='home' className='menu-item' href='/'>
-        OPTION 1
+      <ItemStyled href='#home' onClick={handleLinkClick} className='menu-item'>
+        Home
       </ItemStyled>
-      <ItemStyled id='home' className='menu-item' href='/'>
-        OPTION 2
+      <ItemStyled href='#packs' onClick={handleLinkClick} className='menu-item'>
+        Packs
       </ItemStyled>
-      <ItemStyled id='home' className='menu-item' href='/'>
-        OPTION 3
-      </ItemStyled>
-      <ItemStyled id='home' className='menu-item' href='/'>
-        OPTION 4
+      <ItemStyled
+        href='#services'
+        onClick={handleLinkClick}
+        className='menu-item'
+      >
+        Services
       </ItemStyled>
     </Menu>
   )

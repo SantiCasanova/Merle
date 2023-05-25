@@ -4,7 +4,7 @@ import Slogan from '../../components/slogan/Slogan'
 
 function SectionService() {
   return (
-    <SectionServiceStyled>
+    <SectionServiceStyled id='services'>
       <Title text={'SERVICIOS'} />
       <Slogan
         text={

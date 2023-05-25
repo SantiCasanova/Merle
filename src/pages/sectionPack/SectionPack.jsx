@@ -4,7 +4,7 @@ import Title from '../../components/title/Title'
 
 function SectionPack() {
   return (
-    <SectionPackStyled>
+    <SectionPackStyled id='packs'>
       <Title text={'PACKS'} />
       <Packs />
     </SectionPackStyled>
