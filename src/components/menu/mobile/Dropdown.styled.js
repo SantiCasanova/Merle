@@ -6,7 +6,7 @@ export const ItemStyled = styled.a`
   font-family: 'balooPaaji', sans-serif;
 `
 
-export const dropdownStyles = {
+export const dropdownStyled = {
   bmBurgerButton: {
     position: 'fixed',
     width: '28px',

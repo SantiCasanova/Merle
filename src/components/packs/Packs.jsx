@@ -17,10 +17,6 @@ function Packs() {
     }
   }, [])
 
-  // width={'15.625rem'}
-  // height={'20rem'}
-  // top={'19.125rem'}
-  // left={'0.813rem'}
   return (
     <PacksContainerStyled>
       <Pack

@@ -1,9 +1,9 @@
 import { slide as Menu } from 'react-burger-menu'
-import { ItemStyled, dropdownStyles } from './Dropdown.styles'
+import { ItemStyled, dropdownStyled } from './Dropdown.styled'
 
 function Dropdown() {
   return (
-    <Menu right styles={dropdownStyles}>
+    <Menu right styles={dropdownStyled}>
       <ItemStyled id='home' className='menu-item' href='/'>
         OPTION 1
       </ItemStyled>
