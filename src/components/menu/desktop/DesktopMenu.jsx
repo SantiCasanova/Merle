@@ -6,11 +6,19 @@ import {
 } from './DesktopMenu.styled'
 
 function DesktopMenu() {
+  const handleLinkClick = event => {
+    event.preventDefault()
+    const targetId = event.target.getAttribute('href')
+    const targetElement = document.querySelector(targetId)
+    targetElement.scrollIntoView({ behavior: 'smooth' })
+  }
   return (
     <DesktopMenuContainerStyled>
       <UlStyled>
         <LiStyled>
-          <AStyled>Option 1</AStyled>
+          <AStyled href='#home' onClick={handleLinkClick}>
+            Option 1
+          </AStyled>
         </LiStyled>
         <LiStyled>
           <AStyled>Option 2</AStyled>

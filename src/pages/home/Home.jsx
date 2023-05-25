@@ -5,7 +5,7 @@ import { HomeStyled } from './Home.styled'
 
 function Home() {
   return (
-    <HomeStyled>
+    <HomeStyled id='home'>
       <Navbar />
       <Logo />
       <Slogan text={'Creatividad que se sirve en cada taza'} />

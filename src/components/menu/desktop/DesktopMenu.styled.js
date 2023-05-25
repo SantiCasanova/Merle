@@ -1,10 +1,12 @@
 import styled from 'styled-components'
 
 export const DesktopMenuContainerStyled = styled.nav`
-  background-color: transparent;
+  background-color: hsla(180, 0%, 0%, 0.5);
   color: white;
   font-family: 'balooPaaji', sans-serif;
   width: 100%;
+  position: fixed;
+  z-index: 3;
 `
 export const UlStyled = styled.ul`
   display: flex;
@@ -14,4 +16,6 @@ export const UlStyled = styled.ul`
 export const LiStyled = styled.li``
 export const AStyled = styled.a`
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 `
